@@ -5,5 +5,6 @@ lazy val root = project
   .settings(
     name := "advent-of-code",
     scalaVersion := scala3Version,
-    libraryDependencies += "org.scalameta" %% "munit" % "1.0.0-M6" % Test
+    libraryDependencies += "org.scalameta" %% "munit" % "1.0.0-M6" % Test,
+    libraryDependencies += "com.lihaoyi" %% "pprint" % "0.8.1",
   )
